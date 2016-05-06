@@ -9,11 +9,12 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
 Plugin 'vim-scripts/bufexplorer.zip'
-Plugin 'fatih/vim-go'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-session'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'fatih/vim-go'
+Plugin 'shawncplus/phpcomplete.vim'
 
 
 
@@ -60,7 +61,3 @@ set sw=4 ts=4 et
 nmap <Leader>l :setlocal number!<CR>
 nmap <Leader>o :set paste!<CR>
 nmap <Leader>q :nohlsearch<CR>
-
-
-
-
